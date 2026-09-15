@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Training\CBIT_Edge_Testing\SeleniumWebDriver-DDTUsingTestNG1\src\test\java\dataProvider\DataProviderDemo.java"/>
+			<item value="C:\Training\CBIT_Edge_Testing\SeleniumWebDriverScreenshots"/>
+			<item value="C:\Training\CBIT_Edge_Testing\SeleniumWebDriverCommands\pom.xml"/>
+			<item value="C:\Training\CBIT_Edge_Testing\BDDUsingCucumber"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="HybridDrivenFramework"/>
+			<item value="SeleniumWebDriver-PageObjectModel"/>
+			<item value="SeleniumWebDriver-DDTUsingTestNG1"/>
+			<item value="SeleniumWebDriver-DDTUsingTestNG"/>
+			<item value="SeleniumWebDriverScreenshots"/>
+			<item value="SeleniumWebDriverRadioButtons"/>
+			<item value="SeleniumWebDriverListBoxItems"/>
+			<item value="SeleniumWebDriverNavigationCommands"/>
+			<item value="SeleniumWebDriverCICDJenkinsAllureReports"/>
+			<item value="SeleniumWebDriver"/>
+		</list>
+		<list key="name">
+			<item value="HybridDrivenFramework"/>
+			<item value="SeleniumWebDriver-PageObjectModel"/>
+			<item value="SeleniumWebDriver-DDTUsingTestNG1"/>
+			<item value="SeleniumWebDriver-DDTUsingTestNG"/>
+			<item value="SeleniumWebDriverScreenshots"/>
+			<item value="SeleniumWebDriverRadioButtons"/>
+			<item value="SeleniumWebDriverListBoxItems"/>
+			<item value="SeleniumWebDriverNavigationCommands"/>
+			<item value="SeleniumWebDriverCICDJenkinsAllureReports"/>
+			<item value="SeleniumWebDriver"/>
+		</list>
+		<list key="artifactId">
+			<item value="HybridDrivenFramework"/>
+			<item value="SeleniumWebDriver-PageObjectModel"/>
+			<item value="SeleniumWebDriver-DDTUsingTestNG1"/>
+			<item value="SeleniumWebDriver-DDTUsingTestNG"/>
+			<item value="SeleniumWebDriverScreenshots"/>
+			<item value="SeleniumWebDriverRadioButtons"/>
+			<item value="SeleniumWebDriverListBoxItems"/>
+			<item value="SeleniumWebDriverNavigationCommands"/>
+			<item value="SeleniumWebDriverCICDJenkinsAllureReports"/>
+			<item value="SeleniumWebDriver"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Training\CBIT_Edge_Testing\SeleniumWenDriver-MultipleFrames"/>
+			<item value="C:\Training\CBIT_Edge_Testing\SeleniumWebDriverWebElements"/>
+			<item value="C:\Training\CBIT_Edge_Testing\SeleniumWebDriverJavaScriptAlerts"/>
+			<item value="C:\Training\CBIT_Edge_Testing\SeleniumDataDrivenTesting"/>
+			<item value="C:\Training\CBIT_Edge_Testing\JDBCConnectionInMySQLServer"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,33 @@
+package utility;
+
+import java.io.File;
+import java.io.FileInputStream;
+
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class DataExcelReader {
+	XSSFWorkbook wb;
+	public DataExcelReader() {
+		File src = new File("./Configuration/config.properties");
+		
+		try {
+			FileInputStream fis= new FileInputStream(src);
+			
+			wb = new XSSFWorkbook();
+			
+		}
+		catch(Exception  e) {
+			System.out.println("Unable to load excel file"+e.getMessage());
+		}
+	}
+	
+	public String getStringData(int sheetIndex, int row, int column) {
+		return wb.getSheetAt(sheetIndex).getRow(row).getCell(column).getStringCellValue();
+	}
+	
+	public String getStringData(int sheetName, int row, int column) {
+		return wb.getSheetAt(sheetName).getRow(row).getCell(column).getStringCellValue();
+	}
+
+
+}

@@ -1,0 +1,62 @@
+package selenium.navigationcommands;
+import java.net.URL;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.*;
+
+public class NavigationCommands {
+	WebDriver driver;
+	String URL;
+	
+    @Test(priority = 0)
+    public void NavigateDemo() {
+        driver = new ChromeDriver();
+        driver.navigate().to("https://practicetestautomation.com/practice-test-login/");
+        driver.manage().window().maximize();
+        String BrowserTitle = driver.getTitle();
+        System.out.println(BrowserTitle);
+        String BrowserURL = driver.getCurrentUrl();
+        System.out.println(BrowserURL);
+        driver.quit();
+    }
+	
+	@Test(priority=1)
+	public void NavigateBackDemo() throws Exception
+	{
+		EdgeDriver driver = new EdgeDriver();
+		driver.get("https://www.selenium.dev/");
+		driver.manage().window().maximize();
+		String BrowserTitle  = driver.getTitle();
+		System.out.println(BrowserTitle);
+		
+		 driver.navigate().to("https://login.yahoo.com/");
+		 URL = driver.getCurrentUrl();
+		 System.out.println(URL);
+		 Thread.sleep(5000);
+		 
+		 driver.navigate().back();
+		
+	    URL= driver.getCurrentUrl();
+		System.out.println(URL);
+		driver.quit();
+	}
+	
+	@Test(priority=2)
+	public void FirefoxBrowserTest()
+	{
+		FirefoxDriver driver = new FirefoxDriver();
+		driver.get("https://erp.cbit.org.in/");
+		driver.manage().window().maximize();
+		String BrowserTitle  = driver.getTitle();
+		System.out.println(BrowserTitle);
+		String BrowserURL= driver.getCurrentUrl();
+		System.out.println(BrowserURL);
+		driver.quit();
+	}
+	
+
+
+}

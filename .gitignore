@@ -1,0 +1,35 @@
+# Java
+*.class
+
+# Maven
+target/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# IntelliJ
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Test reports
+test-output/
+surefire-reports/
+failsafe-reports/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini

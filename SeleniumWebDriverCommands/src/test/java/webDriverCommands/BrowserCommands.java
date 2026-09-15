@@ -1,0 +1,141 @@
+package webDriverCommands;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.*;
+
+public class BrowserCommands {
+	
+	@Test(priority=0)
+	public void ChromeBrowserTest()
+	{
+		ChromeDriver driver = new ChromeDriver();
+		driver.get("https://practicetestautomation.com/practice-test-login/");
+		driver.manage().window().maximize();
+		String BrowserTitle  = driver.getTitle();
+		System.out.println(BrowserTitle);
+		String BrowserURL= driver.getCurrentUrl();
+		System.out.println(BrowserURL);
+		driver.quit();
+	}
+	
+	@Test(priority=2)
+	public void EdgeBrowserTest()
+	{
+		EdgeDriver driver = new EdgeDriver();
+		driver.get("https://www.selenium.dev/");
+		driver.manage().window().maximize();
+		String BrowserTitle  = driver.getTitle();
+		System.out.println(BrowserTitle);
+		String BrowserURL= driver.getCurrentUrl();
+		System.out.println(BrowserURL);
+		driver.quit();
+	}
+	
+	@Test(priority=1)
+	public void FirefoxBrowserTest()
+	{
+		FirefoxDriver driver = new FirefoxDriver();
+		driver.get("https://erp.cbit.org.in/");
+		driver.manage().window().maximize();
+		String BrowserTitle  = driver.getTitle();
+		System.out.println(BrowserTitle);
+		String BrowserURL= driver.getCurrentUrl();
+		System.out.println(BrowserURL);
+		driver.quit();
+	}
+	
+	@Test(priority=3)
+	public void FirefoxBrowserTest1()
+	{
+		FirefoxDriver driver = new FirefoxDriver();
+		driver.get("https://mvnrepository.com/");
+		driver.manage().window().maximize();
+		String BrowserTitle  = driver.getTitle();
+		System.out.println(BrowserTitle);
+		String BrowserURL= driver.getCurrentUrl();
+		System.out.println(BrowserURL);
+		driver.quit();
+	}
+	
+	@Test(priority=4)
+	public void ChromeBrowserTest1()
+	{
+		ChromeDriver driver = new ChromeDriver();
+		driver.get("https://in.bookmyshow.com/");
+		driver.manage().window().maximize();
+		String BrowserTitle  = driver.getTitle();
+		System.out.println(BrowserTitle);
+		String BrowserURL= driver.getCurrentUrl();
+		System.out.println(BrowserURL);
+		driver.quit();
+	}
+	
+	@Test(priority=5)
+	public void EdgeBrowserTest1()
+	{
+		EdgeDriver driver = new EdgeDriver();
+		driver.get("https://www.selenium.dev/");
+		driver.manage().window().maximize();
+		String BrowserTitle  = driver.getTitle();
+		System.out.println(BrowserTitle);
+		String BrowserURL= driver.getCurrentUrl();
+		System.out.println(BrowserURL);
+		driver.quit();
+	}
+	
+	@Test(priority=6)
+	public void EdgeBrowserTest2()
+	{
+		EdgeDriver driver = new EdgeDriver();
+		driver.get("https://www.gettyimages.in/photos/bird-flying-silhouette");
+		driver.manage().window().maximize();
+		String BrowserTitle  = driver.getTitle();
+		System.out.println(BrowserTitle);
+		String BrowserURL= driver.getCurrentUrl();
+		System.out.println(BrowserURL);
+		driver.quit();
+	}
+	
+	@Test(priority=7)
+	public void ChromeBrowserTest2()
+	{
+		ChromeDriver driver = new ChromeDriver();
+		driver.get("https://web.whatsapp.com/");
+		driver.manage().window().maximize();
+		String BrowserTitle  = driver.getTitle();
+		System.out.println(BrowserTitle);
+		String BrowserURL= driver.getCurrentUrl();
+		System.out.println(BrowserURL);
+		driver.quit();
+	}
+	
+	
+	@Test(priority=8)
+	public void ChromeBrowserTest3()
+	{
+		ChromeDriver driver = new ChromeDriver();
+		driver.get("https://www.merriam-webster.com/dictionary/task");
+		driver.manage().window().maximize();
+		String BrowserTitle  = driver.getTitle();
+		System.out.println(BrowserTitle);
+		String BrowserURL= driver.getCurrentUrl();
+		System.out.println(BrowserURL);
+		driver.quit();
+	}
+	
+	@Test(priority=9)
+	public void ChromeBrowserTest4()
+	{
+		ChromeDriver driver = new ChromeDriver();
+		driver.get("https://www.hotstar.com/in/home");
+		driver.manage().window().maximize();
+		String BrowserTitle  = driver.getTitle();
+		System.out.println(BrowserTitle);
+		String BrowserURL= driver.getCurrentUrl();
+		System.out.println(BrowserURL);
+		driver.quit();
+	}
+	
+}

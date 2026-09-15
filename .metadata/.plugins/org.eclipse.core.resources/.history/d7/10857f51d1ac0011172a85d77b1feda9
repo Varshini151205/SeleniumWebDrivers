@@ -1,0 +1,29 @@
+package selenium.listbox;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class ListBox {
+	@Test
+	public void ChromeBrowser() {
+
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://testautomationpractice.blogspot.com/");
+		driver.manage().window().maximize();
+		driver.quit();
+
+	}
+	
+	@Test
+	public void ChromeBrowser1() {
+
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://www.facebook.com/reg/?entry_point=login");
+		driver.manage().window().maximize();
+		driver.quit();
+
+	}
+
+
+}
