@@ -8,6 +8,7 @@ target/
 .classpath
 .project
 .settings/
+.metadata/
 
 # IntelliJ
 .idea/
@@ -33,4 +34,11 @@ failsafe-reports/
 .DS_Store
 Thumbs.db
 desktop.ini
-/.metadata/
+
+# Allure test results
+allure-results/
+allure-report/
+
+# Environment / secrets
+.env
+*.env
